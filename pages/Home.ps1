@@ -1,6 +1,4 @@
-﻿Import-Module $PSScriptRoot\..\modules\Bitcoin-Module.psm1
-
-New-UDPage -Name "Home" -Icon home -Content {
+﻿New-UDPage -Name "Home" -Icon home -Content {
     New-UDRow {
         New-UDColumn {
             New-UDCounter -Title "Block Height" -Endpoint {
