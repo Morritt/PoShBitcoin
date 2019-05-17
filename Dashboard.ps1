@@ -1,4 +1,6 @@
-﻿$HomePage = . (Join-Path $PSScriptRoot "pages\Home.ps1")
+﻿Import-Module $PSScriptRoot\modules\Bitcoin-Module.psm1
+
+$HomePage = . (Join-Path $PSScriptRoot "pages\Home.ps1")
 $PricesPage = . (Join-Path $PSScriptRoot "pages\Prices.ps1")
 $RedditPage = . (Join-Path $PSScriptRoot "pages\Reddit.ps1")
 $BlockPage = . (Join-Path $PSScriptRoot "pages\Block.ps1")
