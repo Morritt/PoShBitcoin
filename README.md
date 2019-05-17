@@ -21,5 +21,4 @@ Install-Module UniversalDashboard -AcceptLicense
 ```
 
 ## Running
-Create two environment bariables
 Run `Dashboard.ps1` in your editor of choice.
